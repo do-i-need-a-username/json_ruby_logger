@@ -1,0 +1,20 @@
+require:
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: <%= RUBY_VERSION[/^\d+\.\d+/, 0] %>
+
+  # Disable all cops for now. Only notify on DeprecatedClassMethods
+  DisabledByDefault: true
+Layout/LineLength:
+  Max: 300
+
+Lint/DeprecatedClassMethods:
+  Enabled: true
+Style/StringLiterals:
+  Enabled: true
+
+Style/HashSyntax:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
