@@ -63,6 +63,8 @@ Output from example 1:
 {"date":"2023-07-06T15:10:24+10:00","file_name":"test_logger.rb","calling_class":"Object","function_name":"test","lineno":31,"severity":"INFO","pid":44665,"message":"Hello World call from Object"}
 ```
 
+#### Example 2
+
 Example 2 in a single files called `test_logging.rb`:
 
 ```ruby
