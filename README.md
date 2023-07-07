@@ -51,7 +51,7 @@ Example 1 - Single function in a single file called `test_logging.rb`:
 ```ruby
 include Logging
 def test
-  logger.info { "Hello World call from #{self.class.name}" }
+  logger.info("Hello World call from #{self.class.name}")
 end
 
 test
@@ -77,12 +77,12 @@ module LogTest
     include JsonRubyLogger
 
     def call
-      logger.info { "Hello World call from #{self.class.name}" }
+      logger.info("Hello World call from #{self.class.name}")
       call2
     end
 
     def call2
-      logger.info { "Hello World call2 from #{self.class.name}" }
+      logger.info("Hello World call2 from #{self.class.name}")
     end
   end
 end
@@ -92,12 +92,12 @@ class TestLogging2
   include JsonRubyLogger
 
   def call
-    logger.info { "Hello World call from #{self.class.name}" }
+    logger.info("Hello World call from #{self.class.name}")
     call2
   end
 
   def call2
-    logger.info { "Hello World call2 from #{self.class.name}" }
+    logger.info("Hello World call2 from #{self.class.name}")
   end
 end
 
@@ -129,12 +129,12 @@ class AnotherClass
   include JsonRubyLogger
 
   def another_class_call
-    logger.info { "AnotherClass Hello World call from #{self.class.name}" }
+    logger.info("AnotherClass Hello World call from #{self.class.name}")
     another_class
   end
 
   def another_class
-    logger.info { "Hello World call2 from #{self.class.name}" }
+    logger.info("Hello World call2 from #{self.class.name}")
   end
 end
 ```
@@ -149,12 +149,12 @@ class TestLogging
   include JsonRubyLogger
 
   def call
-    logger.info { "Hello World call from #{self.class.name}" }
+    logger.info("Hello World call from #{self.class.name}")
     another_class
   end
 
   def another_class
-    logger.info { "Hello World call2 from #{self.class.name}" }
+    logger.info("Hello World call2 from #{self.class.name}")
     AnotherClass.new.another_class_call
   end
 end
