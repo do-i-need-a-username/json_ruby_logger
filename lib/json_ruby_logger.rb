@@ -12,7 +12,7 @@ module JsonRubyLogger
   # This is the magical bit that gets mixed into your classes
   def logger
     # caller_locations returns an array of Thread::Backtrace::Location
-    JsonRubyLogger.logger(self.class.name, caller_locations.first)
+    @logger ||= JsonRubyLogger.logger(self.class.name, caller_locations.first)
   end
 
   # Global, memoized, lazy initialised instance of a logger

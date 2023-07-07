@@ -12,3 +12,4 @@
 **.gem
 publish_gem.sh
 git_commands.sh
+logger_test.rb
