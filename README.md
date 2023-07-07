@@ -1,5 +1,7 @@
 # JsonRubyLogger
 
+[![Gem Version](https://badge.fury.io/rb/json_ruby_logger.svg)](https://badge.fury.io/rb/json_ruby_logger)
+
 A simpe ruby [logger](https://ruby-doc.org/3.2.2/stdlibs/logger/Logger.html) that logs in json format with the below information.
 
 ```json
