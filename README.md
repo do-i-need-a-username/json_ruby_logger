@@ -49,7 +49,7 @@ Example 1 - Single function in a single file called `test_logging.rb`:
 
 
 ```ruby
-include Logging
+include JsonRubyLogger
 def test
   logger.info("Hello World call from #{self.class.name}")
 end
