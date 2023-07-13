@@ -6,7 +6,6 @@ Gem::Specification.new do |spec|
   spec.name = "json_ruby_logger"
   spec.version = JsonRubyLogger::VERSION
   spec.authors = ["ml"]
-  spec.email = ["redacted@gmail.com"]
 
   spec.summary = "Simple JSON logging for Ruby, including classnames, filenames, linenos, timestamps, and log levels."
   spec.description = "Simple JSON logging for Ruby"
