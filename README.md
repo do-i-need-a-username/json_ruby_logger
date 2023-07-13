@@ -21,7 +21,7 @@ A simpe ruby [logger](https://ruby-doc.org/3.2.2/stdlibs/logger/Logger.html) tha
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Examples](##examples)
+- [Examples](#examples)
 - [Example 1 - Single file](#example-1)
 - [Example 2 - Multiple files file](#example-2)
 
@@ -206,4 +206,11 @@ bundle gem json_ruby_logger \
 
 ```bash
   gem yank json_ruby_logger -v 0.1.0
+```
+
+## Bump Gem Version
+
+```bash
+  gem install gem-release
+  gem bump patch --skip-ci --push
 ```
