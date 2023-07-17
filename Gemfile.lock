@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    json_ruby_logger (0.1.6)
+    json_ruby_logger (0.1.8)
       json (~> 2.6)
       logger (~> 1.5)
       time (~> 0.2)
