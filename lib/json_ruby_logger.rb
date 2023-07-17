@@ -29,7 +29,7 @@ module JsonRubyLogger
         lineno: caller_info.lineno,
         severity: severity,
         pid: Process.pid,
-        message: msg
+        message: msg.to_s
       ) + "\n"
     end
 
