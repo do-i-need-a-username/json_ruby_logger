@@ -214,3 +214,9 @@ bundle gem json_ruby_logger \
   gem install gem-release
   gem bump patch --skip-ci --push
 ```
+
+                        
+## Stargazers over time :joy:
+[![Stargazers over time](https://starchart.cc/do-i-need-a-username/json_ruby_logger.svg?variant=adaptive)](https://starchart.cc/do-i-need-a-username/json_ruby_logger)
+
+                    
